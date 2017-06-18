@@ -1,0 +1,153 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (win64) Build 1756540 Mon Jan 23 19:11:23 MST 2017
+| Date         : Sun Jun 18 16:49:11 2017
+| Host         : Acer-PC running 64-bit Service Pack 1  (build 7601)
+| Command      : report_control_sets -verbose -file lab_6_control_sets_placed.rpt
+| Design       : lab_6
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    86 |
+| Unused register locations in slices containing registers |   295 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              62 |           40 |
+| No           | No                    | Yes                    |             142 |           48 |
+| No           | Yes                   | No                     |              25 |           11 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             548 |          174 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++---------------------+-----------------------------------------------------+-----------------------------------------------------+------------------+----------------+
+|     Clock Signal    |                    Enable Signal                    |                   Set/Reset Signal                  | Slice Load Count | Bel Load Count |
++---------------------+-----------------------------------------------------+-----------------------------------------------------+------------------+----------------+
+|  inst/inst/clk_out1 | show_ins3/push_menu_minimat_y[7]_i_1__20_n_0        | show_ins3/push_menu_minimat_y[3]_i_1__21_n_0        |                1 |              4 |
+|  inst/inst/clk_out1 | show_ins6/push_menu_minimat_y[7]_i_1__11_n_0        | show_ins6/push_menu_minimat_y[3]_i_1__12_n_0        |                2 |              4 |
+|  inst/inst/clk_out1 | show_ins2/push_menu_minimat_y[7]_i_1__21_n_0        | show_ins2/push_menu_minimat_y[3]_i_1__22_n_0        |                2 |              4 |
+|  inst/inst/clk_out1 |                                                     | m_driver/row_reg[8]                                 |                2 |              4 |
+|  inst/inst/clk_out1 | m_driver/pixel_y_to_show_reg[0]_4                   | m_driver/pixel_y_to_show_reg[0]_5                   |                2 |              4 |
+|  inst/inst/clk_out1 | show_ins5/push_menu_minimat_y[7]_i_1__6_n_0         | show_ins5/push_menu_minimat_y[3]_i_1__6_n_0         |                1 |              4 |
+|  inst/inst/clk_out1 | show_ins_resta/push_menu_minimat_y[7]_i_2__18_n_0   | show_ins_resta/push_menu_minimat_y[3]_i_1__2_n_0    |                2 |              4 |
+|  inst/inst/clk_out1 | show_insa/push_menu_minimat_y[7]_i_1__12_n_0        | show_insa/push_menu_minimat_y[3]_i_1__13_n_0        |                1 |              4 |
+|  inst/inst/clk_out1 | show_ins_or/push_menu_minimat_y[7]_i_1__1_n_0       | show_ins_or/push_menu_minimat_y[3]_i_1__1_n_0       |                1 |              4 |
+|  inst/inst/clk_out1 | show_ins1/push_menu_minimat_y[7]_i_1__19_n_0        | show_ins1/push_menu_minimat_y[3]_i_1__20_n_0        |                2 |              4 |
+|  inst/inst/clk_out1 | show_ins0/push_menu_minimat_y[7]_i_1__14_n_0        | show_ins0/push_menu_minimat_y[3]_i_1__15_n_0        |                1 |              4 |
+|  inst/inst/clk_out1 | show_ins7/push_menu_minimat_y[7]_i_1__8_n_0         | show_ins7/push_menu_minimat_y[3]_i_1__8_n_0         |                1 |              4 |
+|  inst/inst/clk_out1 | show_insd/push_menu_minimat_y[7]_i_1__7_n_0         | show_insd/push_menu_minimat_y[3]_i_1__7_n_0         |                2 |              4 |
+|  inst/inst/clk_out1 | show_insd/show_insd/                                | m_driver/push_menu_minimat_x_reg[7]_1               |                3 |              4 |
+|  inst/inst/clk_out1 | show_ins9/push_menu_minimat_y[7]_i_1__5_n_0         | show_ins9/push_menu_minimat_y[3]_i_1__5_n_0         |                1 |              4 |
+|  inst/inst/clk_out1 | show_ins_and/push_menu_minimat_y[7]_i_2__19_n_0     | show_ins_and/push_menu_minimat_y[3]_i_1__3_n_0      |                1 |              4 |
+|  inst/inst/clk_out1 | show_insc/push_menu_minimat_y[7]_i_2__23_n_0        | show_insc/push_menu_minimat_y[3]_i_1__18_n_0        |                2 |              4 |
+|  inst/inst/clk_out1 | show_ins4/push_menu_minimat_y[7]_i_1__16_n_0        | show_ins4/push_menu_minimat_y[3]_i_1__17_n_0        |                1 |              4 |
+|  inst/inst/clk_out1 | show_ins_mult/push_menu_minimat_y[7]_i_2__20_n_0    | show_ins_mult/push_menu_minimat_y[3]_i_1__4_n_0     |                1 |              4 |
+|  inst/inst/clk_out1 | show_inse/push_menu_minimat_y[7]_i_1__13_n_0        | show_inse/push_menu_minimat_y[3]_i_1__14_n_0        |                2 |              4 |
+|  inst/inst/clk_out1 | show_ins8/push_menu_minimat_y[7]_i_1__15_n_0        | show_ins8/push_menu_minimat_y[3]_i_1__16_n_0        |                1 |              4 |
+|  inst/inst/clk_out1 | show_in_suma/push_menu_minimat_y[7]_i_1__18_n_0     | show_in_suma/push_menu_minimat_y[3]_i_1__19_n_0     |                1 |              4 |
+|  inst/inst/clk_out1 | show_insb/push_menu_minimat_y[7]_i_1__10_n_0        | show_insb/push_menu_minimat_y[3]_i_1__10_n_0        |                1 |              4 |
+|  inst/inst/clk_out1 | show_insf/push_menu_minimat_y[7]_i_1__9_n_0         | show_insf/push_menu_minimat_y[3]_i_1__9_n_0         |                1 |              4 |
+|  inst/inst/clk_out1 | m_driver/push_menu_minimat_y_reg[7]_1               | show_one_line_ce/push_menu_minimat_y[3]_i_1__11_n_0 |                2 |              4 |
+|  inst/inst/clk_out1 | m_driver/pixel_y_to_show_reg[0]_3                   | m_driver/pixel_y_to_show_reg[0]_2                   |                2 |              5 |
+|  inst/inst/clk_out1 | m_driver/push_menu_minimat_y_reg[0]_2               | m_driver/push_menu_minimat_y_reg[0]_4               |                1 |              5 |
+|  inst/inst/clk_out1 |                                                     | m_driver/matrix_x_reg[1]_0                          |                3 |              6 |
+|  inst/inst/clk_out1 | m_driver/pixel_y_to_show_reg[0]_3                   | m_driver/push_menu_minimat_y_reg[0]_0               |                2 |              6 |
+|  inst/inst/clk_out1 | show_one_line_hex/push_menu_minimat_x[7]_i_1__3_n_0 | m_driver/menu_character_position_x_reg[0]_3         |                2 |              6 |
+|  inst/inst/clk_out1 | show_one_line_exe/push_menu_minimat_x[7]_i_1__5_n_0 | m_driver/menu_character_position_x_reg[0]_4         |                2 |              6 |
+|  inst/inst/clk_out1 | show_one_line_dec/push_menu_minimat_x[7]_i_1__2_n_0 | m_driver/menu_character_position_x_reg[0]_2         |                2 |              6 |
+|  inst/inst/clk_out1 | m_driver/push_menu_minimat_y_reg[0]_2               | m_driver/pixel_y_to_show_reg[0]_6                   |                2 |              6 |
+|  inst/inst/clk_out1 |                                                     | m_driver/row_reg[6]                                 |                3 |              6 |
+|  inst/inst/clk_out1 | m_driver/pixel_x_to_show_reg[0]                     | m_driver/menu_character_position_x_reg[0]_5         |                2 |              6 |
+|  inst/inst/clk_out1 | show_ins6/push_menu_minimat_y[7]_i_1__11_n_0        | m_driver/n_0_1214                                   |                2 |              7 |
+|  inst/inst/clk_out1 | show_ins9/push_menu_minimat_y[7]_i_1__5_n_0         | m_driver/n_0_1272                                   |                2 |              7 |
+|  inst/inst/clk_out1 | show_ins4/push_menu_minimat_y[7]_i_1__16_n_0        | m_driver/n_0_1214                                   |                3 |              7 |
+|  inst/inst/clk_out1 | show_ins8/push_menu_minimat_y[7]_i_1__15_n_0        | m_driver/n_0_1272                                   |                2 |              7 |
+|  inst/inst/clk_out1 | show_ins_or/push_menu_minimat_y[7]_i_1__1_n_0       | m_driver/n_0_1214                                   |                2 |              7 |
+|  inst/inst/clk_out1 | show_ins3/push_menu_minimat_y[7]_i_1__20_n_0        | m_driver/n_0_1392                                   |                3 |              7 |
+|  inst/inst/clk_out1 | show_ins_mult/push_menu_minimat_y[7]_i_2__20_n_0    | m_driver/n_0_1214                                   |                2 |              7 |
+|  inst/inst/clk_out1 | show_ins_resta/push_menu_minimat_y[7]_i_2__18_n_0   | m_driver/n_0_1392                                   |                2 |              7 |
+|  inst/inst/clk_out1 | show_ins_and/push_menu_minimat_y[7]_i_2__19_n_0     | m_driver/n_0_1272                                   |                2 |              7 |
+|  inst/inst/clk_out1 | show_in_suma/push_menu_minimat_y[7]_i_1__18_n_0     | m_driver/n_0_1392                                   |                2 |              7 |
+|  inst/inst/clk_out1 | show_insf/push_menu_minimat_y[7]_i_1__9_n_0         | m_driver/n_0_1284                                   |                2 |              7 |
+|  inst/inst/clk_out1 | show_insb/push_menu_minimat_y[7]_i_1__10_n_0        | m_driver/n_0_1272                                   |                2 |              7 |
+|  inst/inst/clk_out1 | show_inse/push_menu_minimat_y[7]_i_1__13_n_0        | m_driver/n_0_1284                                   |                2 |              7 |
+|  inst/inst/clk_out1 | show_insc/push_menu_minimat_y[7]_i_2__23_n_0        | m_driver/n_0_1284                                   |                2 |              7 |
+|  inst/inst/clk_out1 | show_insd/show_insd/                                | show_insd/push_menu_minimat_x[6]_i_1__22_n_0        |                1 |              7 |
+|  inst/inst/clk_out1 | show_insd/push_menu_minimat_y[7]_i_1__7_n_0         | m_driver/n_0_1284                                   |                3 |              7 |
+|  inst/inst/clk_out1 | show_ins0/push_menu_minimat_y[7]_i_1__14_n_0        | m_driver/n_0_1392                                   |                2 |              7 |
+|  inst/inst/clk_out1 | show_ins1/push_menu_minimat_y[7]_i_1__19_n_0        | m_driver/n_0_1392                                   |                2 |              7 |
+|  inst/inst/clk_out1 | show_ins2/push_menu_minimat_y[7]_i_1__21_n_0        | m_driver/n_0_1392                                   |                2 |              7 |
+|  inst/inst/clk_out1 | m_driver/pixel_y_to_show_reg[0]_4                   | m_driver/push_menu_minimat_y_reg[0]_3               |                2 |              7 |
+|  inst/inst/clk_out1 | show_ins7/push_menu_minimat_y[7]_i_1__8_n_0         | m_driver/n_0_1214                                   |                2 |              7 |
+|  inst/inst/clk_out1 | show_insa/push_menu_minimat_y[7]_i_1__12_n_0        | m_driver/n_0_1272                                   |                2 |              7 |
+|  inst/inst/clk_out1 | m_driver/push_menu_minimat_y_reg[7]_1               | m_driver/push_menu_minimat_y_reg[7]_2               |                2 |              7 |
+|  inst/inst/clk_out1 | show_ins5/push_menu_minimat_y[7]_i_1__6_n_0         | m_driver/n_0_1214                                   |                2 |              7 |
+|  inst/inst/clk_out1 | show_ins8/show_ins8/                                | show_ins8/push_menu_minimat_x[7]_i_1__9_n_0         |                3 |              8 |
+|  inst/inst/clk_out1 |                                                     | m_driver/col_reg[8]                                 |                3 |              9 |
+|  inst/inst/clk_out1 | show_ins_or/show_ins_or/                            | show_ins_or/push_menu_minimat_x[7]_i_1__10_n_0      |                3 |             10 |
+|  inst/inst/clk_out1 | show_insc/show_insc/                                | show_insc/push_menu_minimat_x[7]_i_1__23_n_0        |                3 |             10 |
+|  inst/inst/clk_out1 | show_ins9/show_ins9/                                | show_ins9/push_menu_minimat_x[7]_i_1__11_n_0        |                3 |             10 |
+|  inst/inst/clk_out1 | show_in_suma/show_in_suma/                          | show_in_suma/push_menu_minimat_x[7]_i_1_n_0         |                3 |             10 |
+|  inst/inst/clk_out1 | show_inse/show_inse/                                | show_inse/push_menu_minimat_x[7]_i_1__7_n_0         |                3 |             10 |
+|  inst/inst/clk_out1 | show_ins_and/show_ins_and/                          | show_ins_and/push_menu_minimat_x[7]_i_1__0_n_0      |                3 |             10 |
+|  inst/inst/clk_out1 | show_ins7/show_ins7/                                | show_ins7/push_menu_minimat_x[7]_i_1__15_n_0        |                4 |             10 |
+|  inst/inst/clk_out1 | show_one_line_dec/show_one_line_dec/                | show_one_line_dec/push_menu_minimat_x[7]_i_1__2_n_0 |                3 |             10 |
+|  inst/inst/clk_out1 | show_ins6/show_ins6/                                | show_ins6/push_menu_minimat_x[7]_i_1__20_n_0        |                3 |             10 |
+|  inst/inst/clk_out1 | show_ins_mult/show_ins_mult/                        | show_ins_mult/push_menu_minimat_x[7]_i_1__1_n_0     |                3 |             10 |
+|  inst/inst/clk_out1 | show_ins0/show_ins0/                                | show_ins0/push_menu_minimat_x[7]_i_1__8_n_0         |                3 |             10 |
+|  inst/inst/clk_out1 | show_ins5/show_ins5/                                | show_ins5/push_menu_minimat_x[7]_i_1__12_n_0        |                3 |             10 |
+|  inst/inst/clk_out1 | show_ins3/show_ins3/                                | show_ins3/push_menu_minimat_x[7]_i_1__16_n_0        |                3 |             10 |
+|  inst/inst/clk_out1 | show_insa/show_insa/                                | show_insa/push_menu_minimat_x[7]_i_1__21_n_0        |                3 |             10 |
+|  inst/inst/clk_out1 | show_insf/show_insf/                                | show_insf/push_menu_minimat_x[7]_i_1__17_n_0        |                3 |             10 |
+|  inst/inst/clk_out1 | show_one_line_hex/show_one_line_hex/                | show_one_line_hex/push_menu_minimat_x[7]_i_1__3_n_0 |                3 |             10 |
+|  inst/inst/clk_out1 | show_one_line_exe/show_one_line_exe/                | show_one_line_exe/push_menu_minimat_x[7]_i_1__5_n_0 |                3 |             10 |
+|  inst/inst/clk_out1 | show_insb/show_insb/                                | show_insb/push_menu_minimat_x[7]_i_1__18_n_0        |                4 |             10 |
+|  inst/inst/clk_out1 | show_ins_resta/show_ins_resta/                      | show_ins_resta/push_menu_minimat_x[7]_i_1__4_n_0    |                2 |             10 |
+|  inst/inst/clk_out1 | show_ins2/show_ins2/                                | show_ins2/push_menu_minimat_x[7]_i_1__6_n_0         |                4 |             10 |
+|  inst/inst/clk_out1 | m_driver/show_one_line_ce/                          | m_driver/pixel_x_to_show_reg[0]                     |                3 |             10 |
+|  inst/inst/clk_out1 | show_ins1/show_ins1/                                | show_ins1/push_menu_minimat_x[7]_i_1__13_n_0        |                3 |             10 |
+|  inst/inst/clk_out1 | show_ins4/show_ins4/                                | show_ins4/push_menu_minimat_x[7]_i_1__22_n_0        |                3 |             10 |
+|  inst/inst/clk_out1 |                                                     |                                                     |               40 |             62 |
+|  inst/inst/clk_out1 |                                                     | show_ins0/AR[0]                                     |               48 |            142 |
++---------------------+-----------------------------------------------------+-----------------------------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 4      |                    25 |
+| 5      |                     2 |
+| 6      |                     8 |
+| 7      |                    24 |
+| 8      |                     1 |
+| 9      |                     1 |
+| 10     |                    23 |
+| 16+    |                     2 |
++--------+-----------------------+
+
+
